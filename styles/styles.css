@@ -1,0 +1,425 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sohne";
+  src: url("../public/Sohne-Kraftig.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Sohne";
+  src: url("../public/Sohne-Halbfett.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url("../public/Charter-Regular.otf");
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  font-family: "Sohne", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgb(41, 41, 41);
+  line-height: 20px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.post-content {
+  font-weight: 500;
+}
+
+.post-content h1 {
+  line-height: 36px;
+  font-size: 30px;
+}
+
+.post-content h2 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.post-content h3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.post-content ul {
+  list-style-type: disc;
+}
+
+.post-content a {
+  font-weight: 600;
+  color: rgb(53, 88, 118);
+  opacity: 0.9;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+a.post-link-clear {
+  font-weight: 500;
+  opacity: 1;
+}
+
+a.post-link-clear:hover {
+  text-decoration: none;
+}
+
+.site-name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.heading-font {
+  font-family: "Charter", Georgia, "Times New Roman", Times, serif;
+}
+
+.heading-text {
+  font-family: "Sohne", sans-serif;
+  font-weight: 700;
+  color: rgb(41, 41, 41);
+  margin: 0;
+}
+
+.sub-text {
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(117, 117, 117);
+}
+
+.max-w-600 {
+  max-width: 600px;
+}
+
+.w-user {
+  max-width: calc(50% - 300px);
+}
+
+.w-132 {
+  max-width: 132px;
+}
+
+.sub-line-height {
+  line-height: 1.3;
+}
+
+.text-18 {
+  font-size: 17px;
+}
+
+.text-16 {
+  font-size: 15px;
+}
+
+.h-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.h-video-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.logo-opacity {
+  opacity: 0.85;
+}
+
+.sub-opacity-68 {
+  opacity: 0.68;
+}
+
+.sub-opacity-54 {
+  opacity: 0.54;
+}
+
+.sub-link-grey {
+  color: #717272;
+}
+
+.link-black-hover:hover {
+  color: rgb(41, 41, 41);
+  opacity: 1;
+}
+
+.link-green-hover:hover {
+  color: rgb(7, 59, 6);
+}
+
+.about-bg {
+  background-color: rgb(250, 250, 250);
+}
+
+.green-bg {
+  background-color: rgb(26, 137, 23);
+}
+
+.blue-bg {
+  background-color: rgb(53, 88, 118);
+}
+
+.blue-clr {
+  color: rgb(53, 88, 118);
+}
+
+.main-grey {
+  color: rgb(230, 230, 230);
+}
+
+.main-black {
+  color: rgb(41, 41, 41);
+}
+
+.main-green {
+  color: rgb(26, 137, 23);
+}
+
+.btn-black {
+  background-color: rgb(25, 25, 25);
+}
+
+.btn-outline-green {
+  background-color: transparent;
+  color: rgb(26, 137, 23);
+  border: 1px solid rgb(26, 137, 23);
+}
+
+.btn-outline-black {
+  background-color: transparent;
+  color: rgb(41, 41, 41);
+  border: 1px solid rgb(41, 41, 41);
+}
+
+.btn-outline-white {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.outline-1px {
+  border: 1px solid;
+}
+
+.main-container {
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.mid-container {
+  max-width: 33%;
+  flex-basis: 33%;
+}
+
+.max-width-main {
+  max-width: 1192px;
+}
+
+.max-width-sub {
+  max-width: 1032px;
+}
+
+.max-width-filter {
+  max-width: 400px;
+}
+
+.thumbnail-img {
+  flex: 0 0 100px;
+}
+
+.mini-thumbnail-img {
+  flex: 0 0 80px;
+}
+
+.sub-thumbnail-img {
+  flex: 0 0 140px;
+}
+
+.wide-thumbnail-img {
+  flex: 0 0 180px;
+}
+
+.nav-img {
+  border-right: 1px solid rgb(230, 230, 230);
+}
+
+.nav-greeting {
+  font-family: "Sohne", sans-serif;
+}
+
+.container-divide {
+  border-left: 1px solid rgb(230, 230, 230);
+}
+
+.sub-bottom-border {
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.sub-top-border {
+  border-top: 1px solid rgb(230, 230, 230);
+}
+
+.dropdown-select {
+  overflow-y: auto;
+  border-top: 0px;
+  box-shadow: rgb(230, 230, 230) 0px 1px 4px;
+  border: 1px solid rgb(230, 230, 230);
+  background: white none repeat scroll 0 0;
+  max-height: 400px;
+}
+
+.dropdown-select div:hover {
+  background: rgb(242, 242, 242) none repeat scroll 0 0;
+}
+
+.main-border {
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.main-border:hover {
+  border-color: rgb(168, 168, 168);
+}
+
+.posts-grid {
+  grid-template-columns: repeat(8, 1fr) repeat(4, minmax(48px, 1fr));
+  grid-template-rows: 1fr;
+  display: grid;
+}
+
+.grid-left {
+  grid-row-start: 1;
+  grid-column: 1 / span 7;
+}
+
+.grid-right {
+  grid-row-start: 1;
+  grid-column: 9 / span 4;
+}
+
+.max-h-16 {
+  max-height: 64px;
+}
+
+.max-h-200 {
+  max-height: 200px;
+}
+
+.top-8 {
+  top: 32px;
+}
+
+.top-150 {
+  top: 150px;
+}
+
+.h-160 {
+  height: 160px;
+}
+
+.h-264 {
+  min-height: 264px;
+}
+
+.shimmer-bg {
+  background-color: rgba(242, 242, 242, 1);
+}
+
+.shimmer {
+  animation: k1 1.2s ease-in-out infinite;
+}
+
+.search-bar {
+  transition: width 140ms ease-in 0s, padding 140ms ease-in 0s;
+  background-color: transparent;
+}
+
+.load-more:hover {
+  background: rgb(242, 242, 242) none repeat scroll 0 0;
+}
+
+.sm-border-b {
+  border: 0px;
+}
+
+.input-shadow {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 8px;
+}
+
+.navbar-shadow {
+  box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)
+}
+
+.search-input {
+  border-bottom: 1px solid rgba(0,0,0,.15);
+}
+
+@media (max-width: 1200px) {
+  .mid-container {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 720px) {
+  .mid-container {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .container-divide {
+    border: 0px;
+  }
+
+  .sm-border-b {
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+}
+
+@-webkit-keyframes k1 {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@-moz-keyframes k1 {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+@keyframes k1 {
+  0% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
